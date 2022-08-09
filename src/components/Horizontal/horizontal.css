@@ -1,0 +1,27 @@
+.h-container{
+    background-color: rgb(200, 248, 232);
+}
+
+.horizontal-scrollable {
+    max-width: 350px !important;
+    overflow-x: auto;   
+}
+
+.horizontal-scrollable::-webkit-scrollbar{
+    width: 0px;
+}
+
+.image{
+    background-color: rgb(255, 255, 255);
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.h-card-title{
+    color: rgb(138, 138, 138);
+}

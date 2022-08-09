@@ -1,0 +1,33 @@
+.card {
+  border-top-left-radius: 1.5rem !important;
+  border-top-right-radius: 1.5rem !important;
+}
+
+input {
+  border: hidden !important;
+  height: 2rem !important;
+  width: 8rem !important;
+  padding-left: 0.5rem;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+input:focus {
+  outline: none;
+}
+
+.vertical-scrollable {
+  overflow-y: auto;
+  height: 57vh;
+}
+
+.vertical-scrollable::-webkit-scrollbar {
+  height: 0px;
+}
+
+hr {
+  border-top: 2px solid !important;
+  margin: 0 !important;
+}
